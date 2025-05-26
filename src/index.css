@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family: "gilroy";
+    src: url("../gilroy/Gilroy-Medium.ttf");
+    /* font-family: "nunito";
+    src: url("../Nunito/Nunito-VariableFont_wght.ttf"); */
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+    /* font-family: nunito; */
+    background-color: black;
+}
+
